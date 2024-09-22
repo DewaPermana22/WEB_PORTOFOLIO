@@ -31,112 +31,112 @@ const ListTechStack = () => {
     >
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/html.png'}
+          logo={'/public/html.png'}
           alt={'html'}
           NamaBahasa={'HTML'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/social.png'}
+          logo={'/public/social.png'}
           alt={'CSS'}
           NamaBahasa={'CSS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/js.png'}
+          logo={'/public/js.png'}
           alt={'JavaScript'}
           NamaBahasa={'JavaScript'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/java.png'}
+          logo={'/public/java.png'}
           alt={'Java'}
           NamaBahasa={'Java'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/python.png'}
+          logo={'/public/python.png'}
           alt={'Python'}
           NamaBahasa={'Python'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/c-sharp.png'}
+          logo={'/public/c-sharp.png'}
           alt={'C#'}
           NamaBahasa={'C#'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/icons8-dart-480.png'}
+          logo={'/public/icons8-dart-480.png'}
           alt={'dart'}
           NamaBahasa={'Dart'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/icons8-kotlin-480.png'}
+          logo={'/public/icons8-kotlin-480.png'}
           alt={'Kotlin'}
           NamaBahasa={'Kotlin'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/programing.png'}
+          logo={'/public/programing.png'}
           alt={'node'}
           NamaBahasa={'Node JS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/express-109.svg'}
+          logo={'/public/express-109.svg'}
           alt={'express'}
           NamaBahasa={'Express JS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/1174949_js_react js_logo_react_react native_icon.png'}
+          logo={'/public/1174949_js_react js_logo_react_react native_icon.png'}
           alt={'React JS'}
           NamaBahasa={'React JS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/dot-net-core-7.svg'}
+          logo={'/public/dot-net-core-7.svg'}
           alt={'.Net Core'}
           NamaBahasa={'.Net Core'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/icons8-tailwind-css-480.png'}
+          logo={'/public/icons8-tailwind-css-480.png'}
           alt={'Tailwind CSS'}
           NamaBahasa={'Tailwind CSS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/icons8-bootstrap-480.png'}
+          logo={'/public/icons8-bootstrap-480.png'}
           alt={'Bootstrap'}
           NamaBahasa={'Bootstrap'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/laravel-2.svg'}
+          logo={'/public/laravel-2.svg'}
           alt={'Laravel'}
           NamaBahasa={'Laravel'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/assets/icons8-flutter-480.png'}
+          logo={'/public/icons8-flutter-480.png'}
           alt={'Flutter'}
           NamaBahasa={'Flutter'}
         />
