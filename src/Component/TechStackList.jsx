@@ -1,6 +1,8 @@
 import React, { useRef } from 'react';
 import Card from "../Atoms/Card";
 import { motion, useInView } from 'framer-motion';
+import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, } from "react-icons/si";
+
 
 const cardVariants = {
   hidden: { opacity: 0, y: 50 }, 
@@ -31,22 +33,25 @@ const ListTechStack = () => {
     >
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/html.png'}
-          alt={'html'}
+          logo={<SiHtml5 />}
+          ukuran={'text-5xl'}
+          warna={'text-orange-500'}
           NamaBahasa={'HTML'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/social.png'}
-          alt={'CSS'}
+          logo={<SiCss3 />}
+          warna={'text-blue-600'}
+          ukuran={'text-5xl'}
           NamaBahasa={'CSS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/js.png'}
-          alt={'JavaScript'}
+          logo={<SiJavascript />}
+          warna={'text-yellow-300'}
+          ukuran={'text-5xl'}
           NamaBahasa={'JavaScript'}
         />
       </motion.div>
