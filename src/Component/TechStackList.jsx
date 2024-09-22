@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import Card from "../Atoms/Card";
 import { motion, useInView } from 'framer-motion';
 import { SiHtml5, SiCss3, SiJavascript, SiTailwindcss, SiReact, } from "react-icons/si";
+import { SiExpress,SiBootstrap,SiLaravel,SiFlutter,SiNodedotjs } from "react-icons/si";
+
 
 
 const cardVariants = {
@@ -92,22 +94,24 @@ const ListTechStack = () => {
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/programing.png'}
-          alt={'node'}
+          logo={<SiNodedotjs/>}
+          ukuran={'text-5xl'}
+          warna={'text-green-600'}
           NamaBahasa={'Node JS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/express-109.svg'}
-          alt={'express'}
+          logo={<SiExpress />}
+          ukuran={'text-5xl'}
           NamaBahasa={'Express JS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/1174949_js_react js_logo_react_react native_icon.png'}
-          alt={'React JS'}
+          logo={<SiReact />}
+          ukuran={'text-5xl'}
+          warna={`text-[#61DAFB]`}
           NamaBahasa={'React JS'}
         />
       </motion.div>
@@ -120,29 +124,33 @@ const ListTechStack = () => {
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/icons8-tailwind-css-480.png'}
-          alt={'Tailwind CSS'}
+          logo={<SiTailwindcss />}
+          ukuran={'text-5xl'}
+          warna={'text-sky-500'}
           NamaBahasa={'Tailwind CSS'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/icons8-bootstrap-480.png'}
-          alt={'Bootstrap'}
+          logo={<SiBootstrap />}
+          warna={'text-purple-600'}
+          ukuran={'text-5xl'}
           NamaBahasa={'Bootstrap'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/laravel-2.svg'}
-          alt={'Laravel'}
+          logo={<SiLaravel />}
+          warna={'text-red-500'}
+          ukuran={'text-5xl'}
           NamaBahasa={'Laravel'}
         />
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo={'/public/icons8-flutter-480.png'}
-          alt={'Flutter'}
+          logo={<SiFlutter />}
+          warna={'text-sky-500'}
+          ukuran={'text-5xl'}
           NamaBahasa={'Flutter'}
         />
       </motion.div>
