@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Baloo_Bhaijaan';
+  src: url(../assets/fonts/Baloo_Bhaijaan_2/BalooBhaijaan2-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url(../assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto_bold';
+  src: url(../assets/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins-semi';
+  src: url('../assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: 'Signika_Negative';
+  src: url(../assets/fonts/Signika_Negative/SignikaNegative-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url(../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf);
+}
