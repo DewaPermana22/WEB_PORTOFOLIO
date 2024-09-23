@@ -87,7 +87,7 @@ const ListTechStack = () => {
       </motion.div>
       <motion.div variants={cardVariants}>
         <Card 
-          logo1={'/public/icons8-kotlin-480.png'}
+          logo1={'./public/icons8-kotlin-480.png'}
           alt={'Kotlin'}
           NamaBahasa={'Kotlin'}
         />
