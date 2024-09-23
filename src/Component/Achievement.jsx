@@ -38,7 +38,7 @@ const Achievement = () => {
         },
     };
     return (
-        <div className="bg-slate-100 dark:bg-gray-900 transition-colors duration-300 ease-in-out pt-10 pb-24">
+        <div className="max-sm:pt-5 bg-slate-100 dark:bg-gray-900 transition-colors duration-300 ease-in-out pt-10 pb-24">
             <motion.h1 
                 className="text-2xl md:text-3xl font-bold text-center font-Inter dark:text-white transition-colors duration-300 ease-in-out"
                 initial="hidden"
@@ -56,7 +56,7 @@ const Achievement = () => {
                 variants={hrVariants}
             />
             <motion.div 
-                className="flex max-sm:flex-col items-center justify-center md:px-5 gap-11 pt-8"
+                className="flex max-sm:flex-col max-sm:gap-[70px] items-center justify-center md:px-5 gap-11 pt-8"
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: false, amount: 0.5 }}

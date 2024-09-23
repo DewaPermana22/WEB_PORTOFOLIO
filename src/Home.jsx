@@ -38,8 +38,8 @@ const Home = () => {
   };
 
   return (
-    <>
-      <div className='bg-slate-100 dark:bg-gray-900 min-h-screen transition-colors duration-300 ease-in-out'>
+    <div className='bg-slate-100 dark:bg-gray-900'>
+      <div className='bg-slate-100 max-sm:min-h-[60vh] dark:bg-gray-900 min-h-screen transition-colors duration-300 ease-in-out'>
         <Navbar />
         <motion.div
           className='ps-16 pt-40 md:pt-52'
@@ -81,7 +81,7 @@ const Home = () => {
       <Achievement />
       <ScrollToTopButton />
       <Footer />
-    </>
+    </div>
   );
 }
 

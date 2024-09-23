@@ -19,7 +19,7 @@ const Tech = () => {
     return (
         <motion.div
             ref={ref}
-            className="bg-slate-100 ps-9 flex flex-col pb-11 gap-3 dark:bg-gray-900 transition-colors duration-300 ease-in-out"
+            className=" max-sm:pt-24 bg-slate-100 ps-9 flex flex-col pb-11 gap-3 max-sm:gap-0 dark:bg-gray-900 transition-colors duration-300 ease-in-out"
         >
             <motion.h1
                 initial={{ opacity: 0, y: 10 }}
@@ -33,7 +33,7 @@ const Tech = () => {
                 Tech <span className="text-purple-600 dark:text-white transition-colors duration-300 ease-in-out">Stack</span>
             </motion.h1>
             <ReactTyped
-                className="dark:text-white transition-colors duration-300 ease-in-out text-left md:text-[20px] text-wrap font-Nunito font-semibold"
+                className="max-sm:hidden dark:text-white transition-colors duration-300 ease-in-out text-left md:text-[20px] text-wrap font-Nunito font-semibold"
                 strings={["The technologies I use include various platforms, frameworks, and tools that <br /> enable optimal application development, from front-end to back-end."]}
                 typeSpeed={40}
                 backSpeed={30}

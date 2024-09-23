@@ -9,7 +9,7 @@ const Experience = () => {
 
   return (
     <motion.div
-      className="bg-slate-100 ps-9 flex flex-col gap-3 dark:bg-gray-900 transition-colors duration-300 ease-in-out"
+      className="max-sm:pt-24 max-sm:pb-10 bg-slate-100 ps-9 max-sm:pe-9 flex flex-col gap-3 dark:bg-gray-900 transition-colors duration-300 ease-in-out"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: false, amount: 0.5 }}

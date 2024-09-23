@@ -20,7 +20,7 @@ const Loading = () => {
       animate={isComplete ? { y: -200, opacity: 0 } : { y: 0 }}
       transition={{ duration: 0.8, ease: "easeInOut" }}
     >
-      <div className="text-xl md:text-[100px] font-bold transition-colors duration-300 ease-in-out flex items-center">
+      <div className="text-3xl md:text-[100px] font-bold transition-colors duration-300 ease-in-out flex items-center">
         <motion.span
           className="mr-2 mb-2 md:text-[90px] text-purple-600"
           animate={{ rotate: [0, 360] }}
