@@ -1,6 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React from 'react'
-import Project from "../404";
 import Home from "./Home";
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<Home/>} />
-    <Route path="/Project" element={<Project/>} />
+   
     </Routes>
   </BrowserRouter>
   )
