@@ -7,7 +7,7 @@ function CardProject() {
     <div className='bg-white w-[500px] dark:bg-gray-900 rounded-xl'>
         <div className='flex flex-col gap-2 p-5'>
             <div>
-               <img className='w-full' src="assets/FULL PROJECT ANDROID & WEBSITE.jpg" alt="" />
+               <img className='w-full' src="/public/project1.jpg" alt="" />
             </div>
             <h1 className=' px-5 pt-5 text-2xl font-bold font-Signika dark:text-white'>Simaska App.</h1>
             <h1 className='px-5 pb-5 text-sm text-justify font-Inter'>SIMASKA (Sistem Manajemen Sekolah SMK) is a digital application specifically designed to support school operations. This application integrates various essential features such as student data management, class scheduling, grading, attendance tracking, and school administration management into a unified platform.</h1>
